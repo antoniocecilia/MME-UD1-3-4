@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f7f7f7;
+        }
+        h1 {
+            text-align: center;
+        }
+        .galeria {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        figure {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+        figcaption {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería de 5 imágenes</h1>
+
+    <div class="galeria">
+        <figure>
+            <img src="img/imagen1.png" alt="Descripción de la imagen 1">
+            <figcaption>Título de la imagen 1</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/imagen2.jpg" alt="Descripción de la imagen 2">
+            <figcaption>Título de la imagen 2</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/imagen3.jpg" alt="Descripción de la imagen 3">
+            <figcaption>Título de la imagen 3</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/imagen4.jpg" alt="Descripción de la imagen 4">
+            <figcaption>Título de la imagen 4</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/imagen5.jpg" alt="Descripción de la imagen 5">
+            <figcaption>Título de la imagen 5</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
